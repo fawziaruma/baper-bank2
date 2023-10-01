@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-5xl mt-6 ">Let's get some <span class="font-semibold text-violet-600">Mooooney!!!</span></h1>
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 text-white">
+                <div class="bg-green-600 p-8 gap-4 w-9/12 mx-auto rounded-xl">
+                    <h4 class="text-3xl" >Dposit</h4>
+                    <h2 class="text-5xl" >$<span id="deposit-total">00</span></h2>
+            </div>
+                <div class="bg-yellow-600 p-8 gap-4 w-9/12 mx-auto rounded-xl">
+                    <h4 class="text-3xl">Withdrow</h4>
+                    <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
+            </div>
+                <div class="bg-pink-600 p-8 gap-4 w-9/12 mx-auto rounded-xl">
+                    <h4 class="text-3xl">balance</h4>
+                    <h2 class="text-5xl">$ <span id="balance-total">1200</span></h2>
+            </div>
+            </div>
+        </section>
+        <!-- .....deposite...... -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-indigo-300 p-8 gap-4 w-9/12 mx-auto rounded-xl">
+                    <h4 class="text-3xl mb-4"> please Dposit</h4>
+                    <input id="deposite-field" class="w-9/12 block mb-2 px-3" type="text" name="" placeholder="Your password">
+                    <button  id="btn-deposite" class="bg-amber-400 rounded-lg px-8 py-2  text-white font-medium">submit</button>
+            </div>
+                <div class="bg-red-400 p-8 gap-4 w-9/12 mx-auto rounded-xl">
+                    <h4 class="text-3xl mb-4">please Withdrow</h4>
+                    <input id="withdraw-field" class="w-9/12 block mb-2 px-3 mb-2" type="text" name="" placeholder="Your password">
+                    <button  id="btn-withdraw" class="bg-amber-400 rounded-lg px-8 py-2  text-white font-medium hover:bg-yellow-500">submit</button>
+            </div>
+                
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+    <script src="deposite.js"></script>
+    <script src="withdraw.js"></script>
+    
+</body>
+</html>
